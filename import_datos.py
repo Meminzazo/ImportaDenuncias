@@ -3,9 +3,9 @@ import firebase_admin
 from firebase_admin import credentials, db
 
 # Inicializar Firebase Admin SDK con Realtime Database
-cred = credentials.Certificate("appubicacion-419723-firebase-adminsdk-2gcz2-b3a3c0fd0b.json")  # Ruta al archivo de credenciales
+cred = credentials.Certificate("credenciales_de_la_base_de_datos.json")  # Ruta al archivo de credenciales
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://appubicacion-419723-default-rtdb.firebaseio.com/'
+    'databaseURL': 'link_de_la_base_de_datos'
 })
 
 # Cargar el archivo CSV
