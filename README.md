@@ -14,9 +14,12 @@ Este proyecto permite importar datos de denuncias desde un archivo CSV a una bas
 2. **Credenciales válidas de Firebase.** El archivo JSON con las credenciales de tu base de datos debe ser descargado desde tu consola de Firebase.
 3. **Archivo CSV con los datos de las denuncias.**
 
-Moficar estos valores con datos validos:
+### Moficar estos valores con datos validos:### Y DESCARGAR LAS CREDENCIALES:
 cred = credentials.Certificate(config("FIREBASE_CREDENTIALS"))
 
 firebase_admin.initialize_app(cred, {
     'databaseURL': config("FIREBASE_URL")
 })
+
+### Y DESCARGAR LAS CREDENCIALES:
+appubicacion-firebase-adminsdk.json
